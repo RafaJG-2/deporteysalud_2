@@ -62,10 +62,10 @@ private void escribirarchivoexcel(String tipo, String fecha, String tiempo, Stri
             deportesalud = new XSSFWorkbook();
             sheet = deportesalud.createSheet("Entrenamientos");
             sheet.setColumnWidth(0, 5000);
-            sheet.setColumnWidth(1, 4000);
-            sheet.setColumnWidth(2, 4000);
-            sheet.setColumnWidth(3, 4000);
-            sheet.setColumnWidth(4, 8000);
+            sheet.setColumnWidth(1, 5000);
+            sheet.setColumnWidth(2, 5000);
+            sheet.setColumnWidth(3, 5000);
+            sheet.setColumnWidth(4, 5000);
 
 
             Row header = sheet.createRow(0);
